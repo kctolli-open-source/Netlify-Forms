@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - HTML</title>
+</head>
+<body>
+    <h1>Contact Information</h1>
+
+    <form name="connect" method="POST" netlify>
+        <p>
+          <label>Enter Your Name: 
+            <input type="text" name="name" />
+          </label>
+        </p>
+        <p>
+          <label>Enter Your Email: 
+            <input type="email" name="email" />
+          </label>
+        </p>
+        <p>
+            <label>
+                <input type="radio" name="phonetype" value="Cell" /> Cell
+            </label>
+            <label>
+                <input type="radio" name="phonetype" value="Work" /> Work
+            </label>
+            <label>
+                <input type="radio" name="phonetype" value="Home" /> Home
+            </label>
+            <label>
+                <input type="radio" name="phonetype" value="Other" /> Other
+            </label>
+        </p>
+        <p>
+          <label>Enter Your Phone Number: 
+            <input type="tel" name="phone" />
+          </label>
+        </p>
+        <br />
+        <button type="submit">Submit</button>
+      </form>
+</body>
+</html>
