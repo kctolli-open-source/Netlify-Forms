@@ -38,12 +38,11 @@
 
 ### Examples
 
-- [HTML](./html/)
-- [Vanilla](./vanilla/)
-- [React](./react/)
-- [Svelte](./svelte/)
-- [Vue](./vue/)
-- [Angular](./angular/)
+- [HTML](./html/) - [html-form-contact](https://kctolli-html-form-contact.netlify.app)
+- [Vanilla](./vanilla/) - [vanilla-form-contact](https://kctolli-vanilla-form-contact.netlify.app)
+- [React](./react/) - [react-form-contact](https://kctolli-react-form-contact.netlify.app)
+- [Svelte](./svelte/) - [svelte-form-contact](https://kctolli-svelte-form-contact.netlify.app)
+- [Vue](./vue/) - [vue-form-contact](https://kctolli-vue-form-contact.netlify.app)
 
 
 #### Footnotes
