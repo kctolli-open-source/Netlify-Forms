@@ -1,14 +1,15 @@
 function Form() {
     return (
         <form name="connect" method="POST" netlify>
+            <input type="hidden" name="form-name" value="connect" />
             <p>
                 <label>Enter Your Name: 
-                <input type="text" name="name" />
+                    <input type="text" name="name" />
                 </label>
             </p>
             <p>
                 <label>Enter Your Email: 
-                <input type="email" name="email" />
+                    <input type="email" name="email" />
                 </label>
             </p>
             <p>
@@ -27,7 +28,7 @@ function Form() {
             </p>
             <p>
                 <label>Enter Your Phone Number: 
-                <input type="tel" name="phone" />
+                    <input type="tel" name="phone" />
                 </label>
             </p>
             <br />
