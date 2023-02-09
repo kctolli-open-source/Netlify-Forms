@@ -1,6 +1,6 @@
 function Form() {
     return (
-        <form name="connect" method="POST" netlify>
+        <form name="connect" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="connect" />
             <p>
                 <label>Enter Your Name: 
