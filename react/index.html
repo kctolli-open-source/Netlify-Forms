@@ -2,39 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact - React</title>
     <script type="module" src="/src/main.jsx"></script>
   </head>
-  <body id="root">
-    <form name="connect" method="POST" netlify>
+  <body>
+    <form name="connect" method="POST" data-netlify="true" hidden>
+      <input type="hidden" name="form-name" value="connect" />
       <input type="text" name="name" />
       <input type="email" name="email" />
-      
-        </label>
-      </p>
-      <p>
-          <label>
-              <input type="radio" name="phonetype" value="Cell" /> Cell
-          </label>
-          <label>
-              <input type="radio" name="phonetype" value="Work" /> Work
-          </label>
-          <label>
-              <input type="radio" name="phonetype" value="Home" /> Home
-          </label>
-          <label>
-              <input type="radio" name="phonetype" value="Other" /> Other
-          </label>
-      </p>
-      <p>
-        <label>Enter Your Phone Number: 
-          <input type="tel" name="phone" />
-        </label>
-      </p>
-      <br />
-      <button type="submit">Submit</button>
+      <input type="radio" name="phonetype" /> 
+      <input type="tel" name="phone" />
     </form>
+    <main id="root"></main>
   </body>
 </html>
