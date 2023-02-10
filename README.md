@@ -1,6 +1,7 @@
 # Netlify Forms
 ## Creating Forms Without a Backend
 
+**If you have Questions fill out this [form](https://www.pages.ktolliver.org/questions.html)**
 
 - Netlify has built-in form handling[^1]
 - No need for Backend or API calls
@@ -44,9 +45,9 @@
 - [Svelte](./svelte/) - [svelte-form-contact](https://kctolli-svelte-form-contact.netlify.app)
 - [Vue](./vue/) - [vue-form-contact](https://kctolli-vue-form-contact.netlify.app)
 
-
 #### Footnotes
 
 [^1]: [Netlify Form Documentation](https://docs.netlify.com/forms/setup/)
 [^2]: [React Netlify Forms (NPM)](https://www.npmjs.com/package/react-netlify-forms)
 [^3]: [Integrate Netlify Forms in JSX](https://www.netlify.com/blog/2017/07/20/how-to-integrate-netlifys-form-handling-in-a-react-app/)
+
